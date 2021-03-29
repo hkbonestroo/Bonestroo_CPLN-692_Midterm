@@ -42,9 +42,27 @@ var page2={
     content: "blah blah blah 2", 
   }
 
+var page3={
+    title: "page3",
+    content: "blah blah blah 3", 
+  }
+
+var page4={
+    title: "page4",
+    content: "blah blah blah 4", 
+  }
+
+var page5={
+    title: "page5",
+    content: "blah blah blah 5", 
+  }
+
 var slides = [
     page1,
-    page2
+    page2,
+    page3,
+    page4,
+    page5
   ]
 
  var currentPage=0;
@@ -53,6 +71,7 @@ var slides = [
     markers.forEach(function(marker){map.removeLayer(marker)})
   }
   
+
   var nextPage = function() {
     tearDown()
     var nextPage =currentPage +1
@@ -118,8 +137,8 @@ var slides = [
     // })
     // markers.forEach(function(marker){marker.addTo(map)})
     buildPage(slides[currentPage])
-    
+    $("#next").click(nextPage)
+    $("#prev").click(prevPage)
+
   })
 
-$("#next").click(nextPage)
-$("#prev").click(prevPage)
