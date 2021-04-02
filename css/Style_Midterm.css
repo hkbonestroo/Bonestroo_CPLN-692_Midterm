@@ -1,3 +1,6 @@
+
+
+
 body {
     padding: 0;
     overflow: hidden;
@@ -33,78 +36,26 @@ p.main {
 }
 
 #sidebar-below{
-  position: absolute;
+  position: relative;
   bottom: 0;
   height: 100px;
 }
 
-.button {
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  background-color: rgb(255, 0, 0);
-  z-index: 2100;
-  height: 20px;
-  width: 20px;
-  margin: 20px;
-  text-indent: 2px;
-}
 
 .legend {
   position: absolute;
   background-color: #fff;
-  z-index: 2000;
-  right: 0;
-  bottom: 0;
-  height: 260px;
-  width: 200px;
-  margin: 30px;
+  right: 0px;
+  left: 400px;
+  height: 100%;
+  top: 0;
 }
 
-.monday {
-  position: relative;
-  background-color: rgb(255, 0, 0);
-  z-index: 2100;
-  height: 20px;
-  width: 20px;
-  margin: 20px;
-  text-indent: 30px;
+.legend2 {
+  position: absolute;
+  background-color: #fff;
+  right: 0px;
+  left: 400px;
+  height: 100%;
+  top: 0;
 }
-
-.tuesday {
-  position: relative;
-  background-color: rgb(255, 165, 0);
-  z-index: 2100;
-  height: 20px;
-  width: 20px;
-  margin: 20px;
-  text-indent: 30px;
-}
-.wednesday {
-  position: relative;
-  background-color: rgb(0, 255, 0);
-  z-index: 2100;
-  height: 20px;
-  width: 20px;
-  margin: 20px;
-  text-indent: 30px;
-}
-.thursday {
-  position: relative;
-  background-color: rgb(0, 0, 255);
-  z-index: 2100;
-  height: 20px;
-  width: 20px;
-  margin: 20px;
-  text-indent: 30px;
-}
-.friday {
-  position: relative;
-  background-color: rgb(128, 0, 128);
-  z-index: 2100;
-  height: 20px;
-  width: 20px;
-  margin: 20px;
-  text-indent: 30px;
-}
-
